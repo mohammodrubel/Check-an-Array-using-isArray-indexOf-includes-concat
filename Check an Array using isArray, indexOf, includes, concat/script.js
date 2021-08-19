@@ -18,11 +18,11 @@ const friends=['akash','nafis','emrul','hasibHasan','rubel','fardinTazbeed','has
             // find name 
             // check Array
 
-            // if (friends.indexOf('NASRIN')!= -1){
-            //     console.log('EXIST YOUR VALUE')
-            // }else{
-            //     console.log('Not EXIST YOUR VALUE')
-            // }
+            if (friends.indexOf('NASRIN')!= -1){
+                console.log('EXIST YOUR VALUE')
+            }else{
+                console.log('Not EXIST YOUR VALUE')
+            }
     // same eror throw 
     if (friends.includes('noman')){
         console.log('your value exist')
